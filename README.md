@@ -5,7 +5,7 @@
 1.  install `perf`
 
     ```console
-    $ apt-get install -y linux-tools-common linux-tools-generic
+    $ sudo apt-get install -y linux-tools-common linux-tools-generic
     ```
 
 ## Steps
@@ -18,7 +18,7 @@
 1.  profile with `flamegraph`
 
     ```console
-    $ /path/to/flamegraph -- ${EXECUTABLE_AND_ARGS}
+    $ sudo /path/to/flamegraph -- ${EXECUTABLE_AND_ARGS}
     ```
 
 ## References
